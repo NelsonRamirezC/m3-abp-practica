@@ -1,33 +1,67 @@
-@use '../abstracts/variables' as *;
-
-.home-page {
-    background-color: $bg-green;
-}
-
+@use "../abstracts/variables" as *;
 
 .home-header {
     text-align: center;
     padding: 3rem;
 
-    &__title{
-        color: $color-accent;;
+    &__title {
+        color: $color-accent;
     }
 
     &__text {
         color: $color-indigo;
         padding: 2rem 0;
     }
-
-
 }
 
-.home-container-button{
+.home-container-button {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem 0.5rem;
 
-    button{
+    button {
         width: 80%;
+    }
+}
+
+.home-container-image {
+    width: 100%;
+}
+
+.home-page {
+    background-color: $bg-green;
+
+    @media screen and (min-width: 576px) {
+        .home-container-button {
+            padding: 1rem 0.5rem;
+
+            button {
+                width: 50%;
+            }
+        }
+
+        .home-container-image {
+            width: 50%;
+            margin:auto;
+        }
+
+        .home-header{
+            padding:2rem;
+
+            &__title {
+                padding: 1rem 1rem 0 1rem;
+            }
+
+            &__text {
+                padding: 1rem 1rem 0 1rem;
+            }
+        }
+
+        .onboard-box{
+            padding:0.5rem;
+            width: 50%;
+            margin:auto;
+        }
     }
 }

@@ -52,6 +52,7 @@ span {
 }
 .btn-custom--primary {
   background-color: #2196F3;
+  border: 1px solid #439be3;
   color: white;
 }
 .btn-custom:hover {
@@ -62,9 +63,10 @@ span {
 .btn-custom:active {
   transform: scale(0.9);
 }
-
-.home-page {
-  background-color: #4CAF50;
+.btn-custom--large {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1.25rem;
 }
 
 .home-header {
@@ -87,6 +89,40 @@ span {
 }
 .home-container-button button {
   width: 80%;
+}
+
+.home-container-image {
+  width: 100%;
+}
+
+.home-page {
+  background-color: #4CAF50;
+}
+@media screen and (min-width: 576px) {
+  .home-page .home-container-button {
+    padding: 1rem 0.5rem;
+  }
+  .home-page .home-container-button button {
+    width: 50%;
+  }
+  .home-page .home-container-image {
+    width: 50%;
+    margin: auto;
+  }
+  .home-page .home-header {
+    padding: 2rem;
+  }
+  .home-page .home-header__title {
+    padding: 1rem 1rem 0 1rem;
+  }
+  .home-page .home-header__text {
+    padding: 1rem 1rem 0 1rem;
+  }
+  .home-page .onboard-box {
+    padding: 0.5rem;
+    width: 50%;
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
