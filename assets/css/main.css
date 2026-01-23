@@ -45,6 +45,24 @@ span {
   aspect-ratio: 1/1;
 }
 
+.btn-custom {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.btn-custom--primary {
+  background-color: #2196F3;
+  color: white;
+}
+.btn-custom:hover {
+  transform: scale(1.1);
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+.btn-custom:active {
+  transform: scale(0.9);
+}
+
 .home-page {
   background-color: #4CAF50;
 }
@@ -59,6 +77,16 @@ span {
 .home-header__text {
   color: indigo;
   padding: 2rem 0;
+}
+
+.home-container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0.5rem;
+}
+.home-container-button button {
+  width: 80%;
 }
 
 /*# sourceMappingURL=main.css.map */

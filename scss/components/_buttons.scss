@@ -1,0 +1,25 @@
+@use '../abstracts/variables' as *;
+
+.btn-custom {
+
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+
+
+    &--primary{
+        background-color: $color-primary;
+        color:white
+    }
+
+    &:hover {
+        transform: scale(1.1);
+        -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+        box-shadow: 5px 5px 15px 5px #000000;
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+}
+
