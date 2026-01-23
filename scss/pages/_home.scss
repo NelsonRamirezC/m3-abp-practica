@@ -1,0 +1,21 @@
+@use '../abstracts/variables' as *;
+
+.home-page {
+    background-color: $bg-green;
+}
+
+
+.home-header {
+    text-align: center;
+    padding: 3rem;
+
+    &__title{
+        color: $color-accent;;
+    }
+
+    &__text {
+        color: $color-indigo;
+        padding: 2rem 0;
+    }
+
+}

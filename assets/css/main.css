@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*
+1. 
+La carpeta abstracts/ reúne todas las herramientas y helpers de Sass utilizados en todo el proyecto. Cada variable global, función, mixin y placeholder debería estar en esta carpeta.
+
+La regla de oro para esta carpeta es que no debe generar ni una sola línea de CSS cuando se compila por si sola. Solo hay helpers de Sass.
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+p,
+small,
+span {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.onboard-box {
+  width: 100%;
+  padding: 2rem;
+}
+.onboard-box__img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.home-page {
+  background-color: #4CAF50;
+}
+
+.home-header {
+  text-align: center;
+  padding: 3rem;
+}
+.home-header__title {
+  color: #E91E63;
+}
+.home-header__text {
+  color: indigo;
+  padding: 2rem 0;
+}
+
+/*# sourceMappingURL=main.css.map */
