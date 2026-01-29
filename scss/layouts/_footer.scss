@@ -1,0 +1,36 @@
+.footer {
+    text-align: center;
+    background-color: rgb(181, 171, 171);
+    padding: 2rem;
+    font-size: 1.5rem;
+
+
+    &__link, &__text {
+        color: rgb(77, 75, 75);
+    }
+
+    &__link{
+        text-decoration: none;
+        margin:0.5rem;
+    }
+
+}
+
+
+
+//  <footer class="footer bg-secondary">
+//         <div class="container footer__container">
+//             <div class="footer__container-links">
+//                 <a href="" class="footer__link">Home</a>
+//                 <a href="" class="footer__link">Features</a>
+//                 <a href="" class="footer__link">Pricing</a>
+//                 <a href="" class="footer__link">FAQs</a>
+//                 <a href="" class="footer__link">About</a>
+//             </div>
+//             <hr>
+
+//             <div class="footer__container-copyright">
+//                 <p class="footer__text-copyright">© 2025 Company, Inc</p>
+//             </div>
+//         </div>
+//     </footer>

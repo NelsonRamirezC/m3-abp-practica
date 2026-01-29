@@ -12085,6 +12085,20 @@ span {
   font-variation-settings: "wdth" 100;
 }
 
+.footer {
+  text-align: center;
+  background-color: rgb(181, 171, 171);
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+.footer__link, .footer__text {
+  color: rgb(77, 75, 75);
+}
+.footer__link {
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
 .onboard-box {
   width: 100%;
   padding: 2rem;
@@ -12205,6 +12219,49 @@ span {
 .cart-button:active .cart-button__text {
   transform: translateZ(5px) translateY(1px);
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.user-profile {
+  width: 131px;
+  height: 51px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background: linear-gradient(to bottom right, #2e8eff 0%, rgba(46, 142, 255, 0) 30%);
+  background-color: rgba(46, 142, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-profile:hover, .user-profile:focus {
+  background-color: rgba(46, 142, 255, 0.7);
+  box-shadow: 0 0 10px rgba(46, 142, 255, 0.5);
+  outline: none;
+}
+.user-profile--success:hover, .user-profile--success:focus {
+  background-color: rgba(30, 232, 71, 0.7);
+  box-shadow: 0 0 10px rgba(30, 232, 71, 0.5);
+}
+.user-profile__inner {
+  width: 127px;
+  height: 47px;
+  border-radius: 13px;
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+.user-profile__inner svg {
+  width: 27px;
+  height: 27px;
+  fill: #fff;
+}
+.user-profile__text {
+  margin: 0;
+  font-weight: 600;
 }
 
 .home-header {

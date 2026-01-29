@@ -7,7 +7,7 @@ La regla de oro para esta carpeta es que no debe generar ni una sola línea de C
 */
 @use 'abstracts';
 
-//3. VENDORS -> LIBRERÍAS -> FRAMEWORKS DE TERCEROS
+//2. VENDORS -> LIBRERÍAS -> FRAMEWORKS DE TERCEROS
 @use 'vendors';
 
 
@@ -15,6 +15,8 @@ La regla de oro para esta carpeta es que no debe generar ni una sola línea de C
 //3. ESTILOS BASE DEL PROYECTO -> RESET, TIPOGRAFÍA
 @use 'base';
 
+//4. LAYOUS
+@use 'layouts';
 
 //5. COMPONENTES REUTILIZABLES
 @use 'components';
